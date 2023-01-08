@@ -1,0 +1,28 @@
+@import '../../styles/sass-variables.scss';
+
+.card {
+  border: 5px solid #000;
+}
+
+@for $index from 1 through length($type-names) {
+  $type-name: nth($type-names, $index);
+
+  .card-#{$type-name} {
+    background-color: var(--color-#{$type-name});
+  }
+}
+
+@for $index from 1 through length($size-names) {
+  $size-name: nth($size-names, $index);
+  $size: nth($size-values, $index);
+
+  .card-#{$size-name} {
+    padding: var(--padding-#{$size-name});
+    border-radius: var(--border-#{$size-name});
+
+    .card-title {
+      font-size: var(--font-size-#{$size-name});
+      line-height: var(--line-height-#{$size-name});
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import './sass-variables.scss';
+
+@each $size in $sizes {
+  .u-mt-#{$size} {
+    margin-top: #{$size * 0.5}rem;
+  }
+
+  .u-mr-#{$size} {
+    margin-right: #{$size * 0.5}rem;
+  }
+
+  .u-mb-#{$size} {
+    margin-bottom: #{$size * 0.5}rem;
+  }
+
+  .u-ml-#{$size} {
+    margin-left: #{$size * 0.5}rem;
+  }
+}

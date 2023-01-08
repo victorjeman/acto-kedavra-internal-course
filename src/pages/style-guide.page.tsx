@@ -6,6 +6,7 @@ import { Modal } from '@/common/components/modal/modal'
 import { Notification } from '@/common/components/notification/notification'
 import { Notifications } from '@/common/components/notifications/notifications'
 import { ReadMore } from '@/common/components/read-more/read-more'
+import { Card } from '@/common/components/card/card'
 
 import { ActorHobbies } from '@/features/actors/components/actor-hobbies/actor-hobbies'
 import { ActorMultipleDelete } from '@/features/actors/components/actor-multiple-delete/actor-multiple-delete'
@@ -19,7 +20,20 @@ export const StyleGuidePage = () => {
       <h1>Components</h1>
 
       <section>
+        <h2>Card</h2>
+
+        <Card title='Card title' size='medium' type='secondary' className='special-card u-mb-3'>
+          A very nice card
+        </Card>
+
+        <Card title='Card title' size='medium' type='primary'>
+          A very nice card
+        </Card>
+      </section>
+
+      <section>
         <h2>Grid</h2>
+
         <Grid>
           <Column span={4}>1</Column>
           <Column span={4}>2</Column>

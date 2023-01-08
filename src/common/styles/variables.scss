@@ -1,0 +1,18 @@
+@import './sass-variables.scss';
+
+:root {
+  --color-primary: #6308f7;
+  --color-secondary: #e5ebfe;
+  --color-help: #eee5fe;
+
+  @for $index from 1 through length($size-names) {
+    $size-name: nth($size-names, $index);
+    $size: nth($size-values, $index);
+
+    --font-size-#{$size-name}: #{$size}rem;
+    --line-height-#{$size-name}: #{$size}rem;
+    --padding-#{$size-name}: #{$size}rem;
+    --margin-#{$size-name}: #{$size}rem;
+    --border-#{$size-name}: #{$size}rem;
+  }
+}
