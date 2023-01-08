@@ -1,21 +1,11 @@
-import cx from 'classnames'
+import styles from './card.module.scss'
 
-import styles from './card-v2.module.scss'
-
-interface Props {
-  type: 'primary' | 'secondary' | 'help'
-  size: 'small' | 'medium' | 'large'
-  className?: string
-  title: string
-  children: React.ReactNode
-}
-
-export const Card = ({ type = 'primary', size = 'medium', title, className, children }: Props) => {
+export const Card = () => {
   return (
-    <div className={cx(styles['card'], styles[`card-${type}`], styles[`card-${size}`], className)}>
-      <h3 className={cx(styles['card-title'])}>{title}</h3>
+    <div className={styles['card']}>
+      <h3 className={styles['card-title']}>Card title</h3>
 
-      <div>{children}</div>
+      <div>Card content</div>
     </div>
   )
 }
