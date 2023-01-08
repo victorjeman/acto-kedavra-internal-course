@@ -1,0 +1,44 @@
+{
+  "name": "acto-kedavra-internal-course",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.6.1",
+    "classnames": "2.3.2",
+    "sass": "1.57.1",
+    "@reduxjs/toolkit": "1.9.1",
+    "dayjs": "1.11.7",
+    "formik": "2.2.9",
+    "framer-motion": "8.2.4",
+    "mobx": "6.7.0",
+    "mobx-react-lite": "3.4.0",
+    "nanoid": "4.0.0",
+    "react-hook-form": "7.41.5",
+    "react-icons": "4.7.1",
+    "react-redux": "8.0.5",
+    "styled-components": "5.3.6",
+    "the-new-css-reset": "1.8.2",
+    "yup": "0.32.11",
+    "zod": "3.20.2"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.26",
+    "vite-tsconfig-paths": "4.0.3",
+    "@types/react-dom": "18.0.10",
+    "@vitejs/plugin-react": "3.0.1",
+    "vite-plugin-fonts": "0.7.0",
+    "typescript": "4.9.4",
+    "vite": "4.0.4",
+    "@hookform/resolvers": "2.9.10",
+    "@types/styled-components": "5.1.26",
+    "prettier": "2.8.2"
+  }
+}
