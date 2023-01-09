@@ -1,10 +1,45 @@
 .card {
   border: 5px solid #000;
-  padding: 2rem;
-  background-color: #6308f7;
-  color: #fff;
 }
 
-.card-title {
-  font-size: 2rem;
+.card-small {
+  padding: 1rem;
+  border-radius: 1rem;
+
+  .card-title {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+.card-medium {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+
+  .card-title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+.card-large {
+  padding: 2rem;
+  border-radius: 2rem;
+
+  .card-title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
+.card-primary {
+  background-color: #6308f7;
+}
+
+.card-secondary {
+  background-color: #e5ebfe;
+}
+
+.card-help {
+  background-color: #eee5fe;
 }
