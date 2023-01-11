@@ -1,0 +1,45 @@
+.card {
+  border: 5px solid #000;
+}
+
+.card-small {
+  padding: var(--padding-small);
+  border-radius: var(--border-small);
+}
+
+.card-small .card-title {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.card-medium {
+  padding: var(--padding-medium);
+  border-radius: var(--border-medium);
+}
+
+.card-medium .card-title {
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-medium);
+}
+
+.card-large {
+  padding: var(--padding-large);
+  border-radius: var(--border-large);
+}
+
+.card-large .card-title {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+.card-primary {
+  background-color: var(--color-primary);
+}
+
+.card-secondary {
+  background-color: var(--color-secondary);
+}
+
+.card-help {
+  background-color: var(--color-help);
+}

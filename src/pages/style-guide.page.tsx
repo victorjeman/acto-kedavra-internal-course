@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { nanoid } from 'nanoid'
 
-import { CardWithCssModules } from '@/common/components/card-with-css-modules/card-with-css-modules'
+import { CardWithCss } from '@/common/components/card-with-css/card-with-css'
 import { CardWithScss } from '@/common/components/card-with-scss/card-with-scss'
+import { CardWithCssModules } from '@/common/components/card-with-css-modules/card-with-css-modules'
 import { CardWithStyledComponents } from '@/common/components/card-with-styled-components/card-with-styled-components'
 
 export const StyleGuidePage = () => {
@@ -18,6 +19,10 @@ export const StyleGuidePage = () => {
 
       <section>
         <h2>Card</h2>
+
+        {/* <CardWithCss title='Card with simple css/scss' size='medium' type='primary' className='special-card u-mb-3'>
+          Card content
+        </CardWithCss> */}
 
         {/* <CardWithScss title='Card with simple css/scss' size='medium' type='primary' className='special-card u-mb-3'>
           Card content
