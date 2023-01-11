@@ -27,9 +27,9 @@ export const StyleGuidePage = () => {
           Card content
         </CardWithCssModules> */}
 
-        <CardWithStyledComponents title='Card with styled components' size='medium' type='help' className='u-mb-3'>
+        {/* <CardWithStyledComponents title='Card with styled components' size='medium' type='help' className='u-mb-3'>
           Card content
-        </CardWithStyledComponents>
+        </CardWithStyledComponents> */}
 
         {/* <button onClick={changeCardTitle}>Change the title for the styled components card</button> */}
       </section>
